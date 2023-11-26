@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posts - ADS Blog</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      border-bottom: 1px solid #ddd;
+      padding: 1em 0;
+      text-align: center;
+      background: url('https://static.vecteezy.com/system/resources/previews/003/782/502/original/dark-abstract-square-header-black-mosaic-look-banner-modern-texture-simple-metal-background-vector.jpg') center/cover no-repeat;
+      height: 80px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 6;
+      color: #fff;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      margin: 0 0.5em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #4F7942;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 60px;
+    }
+
+    .featured {
+      background: url('featured-image.jpg') center/cover no-repeat;
+      height: 200px;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .featured h2 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .featured p {
+      font-size: 1.2em;
+    }
+
+    article {
+      padding: 20px;
+      border-bottom: 1px solid #eee;
+    }
+
+    article:hover {
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: relative; /* Changed to relative positioning */
+    }
+
+    .read-more-btn {
+      display: inline-block;
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .read-more-btn:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ADS Blog</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="post.html">Posts</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <div class="featured">
+      <h2>POSTS</h2>
+      <p>Stay tuned with all the news.</p>
+    </div>
+    <center>
+      <article>
+        <h2>The incident of OpenAI</h2>
+        <p>Chief technology officer Mira Murati appointed interim CEO to lead OpenAI and Sam Altman departs the company. What will be the future of the company? </p>
+        <a href="post1.html" class="read-more-btn">Read more</a>
+      </article>
+
+      <article>
+        <h2>The proposal of law to regulate the AI on Brazil</h2>
+        <p>The Government of Brazil has a proposal of a law to regulate the AI on the country.</p>
+        <a href="post2.html" class="read-more-btn">Read more</a>
+      </article>
+      <article>
+        <h2>Coming soon</h2>
+        <p>this article will arrive soon.</p>
+        <a href="" class="read-more-btn">Read more</a>
+      </article>
+
+    <center>
+  </main>
+
+  <footer>
+    &copy; 2023 ADS Blog | Designed by us
+  </footer>
+
+</body>
+</html>

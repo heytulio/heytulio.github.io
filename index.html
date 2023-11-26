@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - ADS Blog</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333
+    }
+
+    header {
+      background-color: #222;
+      border-bottom: 1px solid #ddd;
+      padding: 1em 0;
+      text-align: center;
+      background: url('https://static.vecteezy.com/system/resources/previews/003/782/502/original/dark-abstract-square-header-black-mosaic-look-banner-modern-texture-simple-metal-background-vector.jpg') center/cover no-repeat;
+      height: 80px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: center;
+      color: #fff;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      margin: 0 0.5em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #4F7942;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 60px;
+    }
+
+    .featured {
+      background: url('') center/cover no-repeat;
+      height: 280px;
+      position: relative;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .featured h2 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .featured p {
+      font-size: 1.2em;
+    }
+
+    article {
+      padding: 40px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: relative; /* Changed to relative positioning */
+    }
+
+    @media (max-width: 600px) {
+      .featured {
+        height: 200px;
+      }
+    }
+
+    .read-more-btn {
+      display: inline-block;
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .read-more-btn:hover {
+      background-color: #2980b9;
+    }
+
+    .grid {
+      text-align: center;
+      border: 5px solid;
+      margin: 60px;
+      position: relative;
+      border-color: 10px  rgba(0,0,0,0);
+      width: 800px;
+      height: 500px;
+      padding: 10px -50px;
+      
+    }
+
+    .artigo001 {
+      margin: 25px 50px 25px 50px;
+      border: 5px solid rgb(1, 1, 1);
+      background-color: rgb(255, 255, 255);
+      transition: 1s;
+      font-size: 10px;
+      cursor: pointer;
+      box-shadow: 5px 5px rgb(177, 169, 169);
+    }
+
+    .artigo001:hover {
+      margin: 25px 50px 25px 50px;
+      border: 20px solid rgb(0, 9, 11);
+      background-color: rgb(231, 236, 228);
+      transition: 1s;
+    }
+
+    .artigo002 {
+      margin: 25px 50px 25px 50px;
+      border: 5px solid rgb(1, 1, 1);
+      background-color: rgb(245, 246, 247);
+      transition: 1s;
+      font-size: 10px;
+      cursor: pointer;
+      box-shadow: 10px 10px grey;
+    }
+
+    .artigo002:hover {
+      margin: 25px 50px 25px 50px;
+      border: 25px solid rgb(0, 9, 11);
+      background-color: rgb(231, 236, 228);
+      transition: 1s;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>ADS Blog</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="post.html">Posts</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <div class="featured">
+      <h2>Welcome</h2>
+      <p>Welcome to your favourite informative blog, stay tuned with all the news about the tecnology world.</p>
+    </div>
+    <div class="grid">
+      <center>
+        <div class="artigo001">
+          <article>
+            <h2>Artigo 1</h2>
+            <p>blablabla.</p>
+            <a href="post1.html" class="read-more-btn">Read more</a>
+          </article>
+        </div>
+        <center>
+
+          <div class="artigo002">
+            <center>
+              <article>
+                <h2>Artigo 2</h2>
+                <p>outro blablabla.</p>
+                <a href="post2.html" class="read-more-btn">Read more</a>
+              </article>
+              <center>
+          </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2023 ADS Blog | Designed by us
+  </footer>
+
+</body>
+
+</html>
